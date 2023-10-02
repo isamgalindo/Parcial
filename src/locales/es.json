@@ -1,0 +1,17 @@
+{
+    "CMA": "Creador del carro",
+    "CMO": "Modelo del carro",
+    "CY": "Año del carro",
+    "AO": "Disponible en linea",
+    "P": "Precio x",
+    "Des": "Descripción",
+    "yesLabel": "Yes",
+    "LDC": "Listados de carros",
+    "TP": "Contraseña",
+    "PlacePass": "Ingresa la contraseña",
+    "Button": "Siguiente",
+    "Acc": "Acceder",
+    "UniAlpes": "Usa tu cuenta de UniAlpes",
+    "Email": "Correo electronico",
+    "PlaceEmail": "Ingresa tu correo"
+}

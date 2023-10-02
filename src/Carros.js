@@ -1,11 +1,13 @@
 import Carro from "./Carro";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Descripciones from "./Descripciones";
+import { FormattedMessage } from "react-intl";
+
 
 const { useEffect, useState } = require("react");
 
 function Carros() {
+    
     const [carros, setCarros] = useState([]);
     useEffect(() => {
     const URL = "https://raw.githubusercontent.com/isamgalindo/Parcial/master/datos.json";
@@ -18,7 +20,7 @@ function Carros() {
     []);
     return (
     <div className="container">
-    <h2 className="mt-2">Listado de carros</h2>
+    <h2 className="mt-2"><FormattedMessage id="LDC" /></h2>
     <hr></hr>
     <Row>
     {carros.map((carro) => (

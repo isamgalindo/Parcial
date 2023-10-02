@@ -1,0 +1,17 @@
+{
+    "CMA": "Car maker" ,
+    "CMO": "Car model" ,
+    "CY": "Car year" ,
+    "AO": "Available online" ,
+    "P": "Price",
+    "Des": "Description",
+    "yesLabel": "Yes",
+    "LDC": "Car list",
+    "TP": "Password",
+    "PlacePass": "Enter password",
+    "Button": "Next",
+    "Acc": "Access",
+    "UniAlpes": "Use your UniAlpes account",
+    "Email": "Email address",
+    "PlaceEmail": "Enter your email"
+}
