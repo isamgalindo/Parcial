@@ -4,7 +4,6 @@ import './App.css';
 import Login from './Login';
 import Password from './Password';
 import Carros from './Carros';
-import Descripciones from './Descripciones';
 import Modificaciones from './Modificaciones';
 
 function App() {
@@ -21,8 +20,6 @@ function App() {
         <Route path="/Login" element={<Login />} />
         <Route path="/Password" element={<Password/>}  />
         <Route path="/Carros" element={<Carros />} />
-        <Route path="/Descripciones/:carroCarModel" element={<Descripciones sharedVariable={sharedVariable} />} />
-
         <Route path="/Modificaciones/:carroCarModel" element={<Modificaciones sharedVariable={sharedVariable} />} />
     </Routes>
     </BrowserRouter>
